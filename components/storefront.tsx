@@ -75,6 +75,9 @@ export function Storefront() {
         <p className="text-slate-300">
           Premium gaming and professional graphics cards
         </p>
+        <div>
+          استغفر الله - الحمد لله - الله اكبر
+        </div>
         <div className="mt-4 flex gap-6">
           <div>
             <p className="text-sm text-slate-400">Total Products</p>
