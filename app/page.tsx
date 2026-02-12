@@ -43,7 +43,7 @@ export default function Home() {
               <span className="font-bold text-slate-900">MGDZ Gaming Store</span>
             </div>
             <p className="text-slate-600 text-sm">
-              Premium Graphics Cards for Gamers & Professionals
+              Graphics Cards Store
             </p>
           </div>
         </div>
