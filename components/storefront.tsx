@@ -73,7 +73,7 @@ export function Storefront() {
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-lg p-8">
         <h2 className="text-3xl font-bold mb-2">Overview</h2>
         <p className="text-slate-300">
-          Premium gaming and professional graphics cards استغفر الله - الحمد لله - الله اكبر
+          Premium gaming and professional graphics cards
         </p>
         <div className="mt-4 flex gap-6">
           <div>
