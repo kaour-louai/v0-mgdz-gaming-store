@@ -71,10 +71,10 @@ export function Storefront() {
   return (
     <div className="space-y-8">
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-lg p-8">
-        <h2 className="text-3xl font-bold mb-2">Graphics Card Catalog</h2>
-        <p className="text-slate-300">
-          Premium gaming and professional graphics cards
-        </p>
+        <div>
+          <h3 className="text-3xl font-bold mb-2">استغفر الله , الحمد لله , الله اكبر</h3>
+          <h2 className="text-3xl font-bold mb-2">Overview</h2>
+        </div>
         <div className="mt-4 flex gap-6">
           <div>
             <p className="text-sm text-slate-400">Total Products</p>
@@ -134,8 +134,8 @@ export function Storefront() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {paginatedProducts.map((product) => (
-              <ProductCard 
-                key={product.id} 
+              <ProductCard
+                key={product.id}
                 product={product}
                 onProductClick={(p) => {
                   setSelectedProduct(p)
@@ -246,11 +246,10 @@ export function Storefront() {
                         <button
                           key={idx}
                           onClick={() => setDetailImageIndex(idx)}
-                          className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${
-                            idx === detailImageIndex
-                              ? 'border-slate-900'
-                              : 'border-slate-200 hover:border-slate-400'
-                          }`}
+                          className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${idx === detailImageIndex
+                            ? 'border-slate-900'
+                            : 'border-slate-200 hover:border-slate-400'
+                            }`}
                         >
                           <img
                             src={img || "/placeholder.svg"}
