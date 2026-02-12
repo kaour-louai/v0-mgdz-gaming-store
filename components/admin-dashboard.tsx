@@ -114,7 +114,7 @@ export function AdminDashboard() {
             setEditingId(null)
             setShowForm(true)
           }}
-          className="gap-2 bg-slate-900 hover:bg-slate-800"
+          className="gap-2 bg-slate-900 hover:bg-slate-800 text-white"
         >
           <Plus size={20} />
           Add Product
