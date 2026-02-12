@@ -73,7 +73,7 @@ export function Storefront() {
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-lg p-8">
         <h2 className="text-3xl font-bold mb-2">Overview</h2>
         <p className="text-slate-300">
-          Premium gaming and professional graphics cards
+          Premium gaming and professional graphics cards استغفر الله - الحمد لله - الله اكبر
         </p>
         <div className="mt-4 flex gap-6">
           <div>
@@ -247,8 +247,8 @@ export function Storefront() {
                           key={idx}
                           onClick={() => setDetailImageIndex(idx)}
                           className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${idx === detailImageIndex
-                              ? 'border-slate-900'
-                              : 'border-slate-200 hover:border-slate-400'
+                            ? 'border-slate-900'
+                            : 'border-slate-200 hover:border-slate-400'
                             }`}
                         >
                           <img
