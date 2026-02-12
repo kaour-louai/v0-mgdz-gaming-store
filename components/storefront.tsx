@@ -72,7 +72,7 @@ export function Storefront() {
     <div className="space-y-8">
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-lg p-8">
         <div>
-          <h3 className="text-3xl font-bold mb-2">استغفر الله  الحمد لله  الله اكبر</h3>
+          <h3 className="text-3xl font-bold mb-2">استغفر الله , الحمد لله , الله اكبر</h3>
           <h2 className="text-3xl font-bold mb-2">Overview</h2>
         </div>
         <div className="mt-4 flex gap-6">
