@@ -76,7 +76,7 @@ export function Storefront() {
           Premium gaming and professional graphics cards
         </p>
         <div>
-          استغفر الله - الحمد لله - الله اكبر
+          <h1>استغفر الله - الحمد لله - الله اكبر</h1>
         </div>
         <div className="mt-4 flex gap-6">
           <div>
