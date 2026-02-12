@@ -71,10 +71,6 @@ export function Storefront() {
   return (
     <div className="space-y-8">
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-lg p-8">
-        <h2 className="text-3xl font-bold mb-2">Overview</h2>
-        <p className="text-slate-300">
-          Premium gaming and professional graphics cards
-        </p>
         <div>
           <h3 className="text-3xl font-bold mb-2">استغفر الله - الحمد لله - الله اكبر</h3>
           <h3 className="text-3xl font-bold mb-2">لا اله الا الله</h3>
