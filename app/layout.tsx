@@ -9,9 +9,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'MGDZ Gaming Store - Premium Graphics Cards',
-  description: 'Buy premium graphics cards for gaming and professional workloads at MGDZ Gaming Store',
-  generator: 'v0.app',
+  title: 'MGDZ',
+  description: 'MGDZ Gaming Store',
+  generator: 'louai',
   icons: {
     icon: [
       {
