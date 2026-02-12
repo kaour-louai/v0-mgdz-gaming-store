@@ -77,6 +77,7 @@ export function Storefront() {
         </p>
         <div>
           <h3 className="text-3xl font-bold mb-2">استغفر الله - الحمد لله - الله اكبر</h3>
+          <h3 className="text-3xl font-bold mb-2">لا اله الا الله</h3>
         </div>
         <div className="mt-4 flex gap-6">
           <div>
